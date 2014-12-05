@@ -1,0 +1,18 @@
+11c11
+< circle is [(2, 2), 8.48528137423857]
+---
+> circle is (2, 2), 8.48528137423857
+23,24c23,24
+< rectangle's bottom left Point = (2, 2)
+< rectangle's top righ Point = (8, 8)
+---
+> rectangle's bottom left Point = (8, 8)
+> rectangle's top righ Point = (14, 14)
+32,34c32,34
+< rectangle is [(2, 2), (11, 13)]
+< rectangle's bottom left Point = (2, 2)
+< rectangle's top righ Point = (11, 13)
+---
+> rectangle is [(14, 14), (23, 25)]
+> rectangle's bottom left Point = (23, 25)
+> rectangle's top righ Point = (32, 36)
