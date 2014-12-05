@@ -1,0 +1,32 @@
+1c1
+< p1 is (2, 2)
+---
+> p1 is (2,2)
+3c3
+< p2 is (8, 8)
+---
+> p2 is (8,8)
+7c7
+< line is [(2, 2), (8, 8)]
+---
+> line is [(2,2),(8,8)]
+11c11
+< circle is [(2, 2), 8.48528137423857]
+---
+> circle is [(2,2),8.48528137423857]
+22,24c22,24
+< rectangle is [(2, 2), (8, 8)]
+< rectangle's bottom left Point = (2, 2)
+< rectangle's top righ Point = (8, 8)
+---
+> rectangle is [(2,2),(8,8)]
+> rectangle's bottom left Point = (2,2)
+> rectangle's top righ Point = (8,8)
+32,34c32,34
+< rectangle is [(2, 2), (11, 13)]
+< rectangle's bottom left Point = (2, 2)
+< rectangle's top righ Point = (11, 13)
+---
+> rectangle is [(2,2),(11,13)]
+> rectangle's bottom left Point = (2,2)
+> rectangle's top righ Point = (11,13)
